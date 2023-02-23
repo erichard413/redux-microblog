@@ -1,0 +1,10 @@
+.Home {
+    width: 100vw;
+    text-align: center;
+}
+
+.Home-blogscontainer {
+    display: inline-block;
+    margin: auto;
+}
+

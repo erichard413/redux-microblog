@@ -1,0 +1,48 @@
+.Header {
+    background: rgb(251,3,191);
+    background: linear-gradient(180deg, rgba(251,3,191,1) 0%, rgba(0,212,255,1) 100%);
+    width: 100vw;
+    height: 300px;
+}
+
+.Header h1 {
+    padding-top: 15px;
+    font-size: 10rem;
+    margin: 0px;
+    width: auto;
+}
+
+#tagline {
+    position: relative;
+    padding: 0px;
+    font-size: 20px;
+    top: -30px;
+    left: 50px;
+}
+
+.Header div {
+    display: inline-block;
+}
+
+.Header-right {
+    font-size: 3rem;
+    text-align: right;
+    padding-right: 10%;
+    width: 25%;
+    padding-top: 35px;
+    vertical-align: top;
+}
+.Header-left {
+    display: inline;
+    padding-left: 10%;
+    width: 75%;
+}
+
+.Header ul {
+    list-style: none;
+}
+
+.Header a {
+    color: white;
+    text-decoration: none;
+}

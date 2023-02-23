@@ -1,0 +1,15 @@
+.Blog {
+    padding-top: 40px;
+}
+
+.Blog-content {
+    display: inline-block;
+    width: 70%;
+}
+
+.Blog-comments {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    vertical-align: top;
+}

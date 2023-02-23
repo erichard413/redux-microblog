@@ -1,0 +1,29 @@
+.BlogPreview-title {
+    font-size: .9rem;
+}
+
+.BlogPreview-description {
+    font-size: .5rem;
+    color: rgb(88, 87, 87);
+    font-style: italic;
+}
+
+.BlogPreview {
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid rgb(255, 0, 234);
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.BlogPreview div{
+    height: 100%;
+    overflow: hidden;
+}
+
+.BlogPreview a {
+    text-decoration: none;
+    color: rgb(13, 180, 231);
+}
