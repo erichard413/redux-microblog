@@ -77,11 +77,11 @@ Challenges for this project:
 
 - Most of my issues in storing state were due to the structure of how I was storing data. I had stored my data in a structure like:
 
-{
+[
     {id, title, body, description, comments : [] ...},
     {id, title, body, description, comments : [] ...},
     {id, title, body, description, comments : [] ...}
-}
+]
 
 Which had made it very difficult to update, and iterate through nested arrays like comments. I had solved this by moving to this structure:
 
